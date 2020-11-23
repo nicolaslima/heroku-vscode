@@ -47,4 +47,4 @@ ENV PORT=8080
 EXPOSE 8080
 USER coder
 WORKDIR /home/coder
-CMD /usr/local/bin/code-server --host 0.0.0.0 --port $PORT .
+CMD /usr/local/bin/code-server --link --host 0.0.0.0 --port $PORT .
